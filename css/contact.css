@@ -1,0 +1,42 @@
+ body {
+      background-color: #fff6eb;
+      font-family: Arial, sans-serif;
+    }
+
+    .contact-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 50px;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+
+    .contact-form, .contact-info {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .contact-form h2 {
+      margin-bottom: 20px;
+    }
+
+    .form-control {
+      margin-bottom: 15px;
+    }
+
+    .btn-success {
+      width: 100%;
+    }
+
+    .contact-info h4 {
+      margin-top: 10px;
+    }
+
+    .contact-info i {
+      margin-right: 10px;
+    }

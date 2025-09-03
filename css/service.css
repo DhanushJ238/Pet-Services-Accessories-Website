@@ -1,0 +1,83 @@
+ header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff9800;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.social-media img {
+    width: 30px;
+    margin-left: 10px;
+}
+    .ser-1 {
+      font-family: Arial;
+      background-color: #f4f4f9;
+      padding: 20px;
+    }
+    .service {
+      width: 30%;
+      margin: 10px;
+      float: left;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .service img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .book-now {
+      display: block;
+      padding: 10px;
+      background-color: #FF5733;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .sertitle {
+      text-align: center;
+    }
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .sertitle{
+      font-family:"DynaPuff", system-ui ;
+      color: #c21636;
+      font-size:  45px;
+    }
+    .space-top{
+       margin-top: 80px;
+    }

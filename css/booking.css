@@ -1,0 +1,61 @@
+  .booking-form {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #fdfdfd;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .form-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .form-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .form-col {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .form-field {
+      margin-bottom: 20px;
+    }
+
+    .form-field label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    .form-field input,
+    .form-field select,
+    .form-field textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .form-actions {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .hero-section {
+      background-color: #d49f6c;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .hero-title {
+      font-family:"DynaPuff", system-ui ;
+      color: #c21636;
+      margin: 0;
+      font-size: 2.5rem;
+    }

@@ -1,0 +1,27 @@
+/* Banner section with background color */
+.banner-section {
+  background-color: #d49f6c;
+  /* Customize color as needed */
+  padding: 60px 0;
+}
+
+.banner-section h1 {
+  font-family: "DynaPuff", system-ui;
+  color: #c21636;
+  margin: 0;
+  font-size: 2.5rem;
+
+}
+
+/* Branches section with background image */
+.branches-section {
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+}
+
+.branches-section .card {
+  background-color: rgba(255, 255, 255, 0.95);
+}

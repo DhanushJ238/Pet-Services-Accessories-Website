@@ -1,0 +1,36 @@
+.btn-gradient-green {
+  background: linear-gradient(45deg, #f1a440, #f4c472);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-gradient-green:hover {
+  background: linear-gradient(45deg, #16a34a, #15803d);
+  transform: scale(1.05);
+}
+
+.btn-gradient-blue {
+  background: linear-gradient(45deg, #f1a440, #f4c472);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-gradient-blue:hover {
+  background: linear-gradient(45deg, #16a34a, #15803d);
+  transform: scale(1.05);
+}
+
+.input-group .form-control {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.input-group-text {
+  border-radius: 1rem 0 0 1rem;
+  font-size: 1.2rem;
+}

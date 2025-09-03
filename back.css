@@ -1,0 +1,21 @@
+.modal-content {
+  border-radius: 1.5rem;
+}
+
+.btn-outline-success,
+.btn-outline-primary {
+  transition: all 0.3s ease;
+}
+
+.btn-outline-success:hover,
+.btn-outline-primary:hover {
+  transform: scale(1.05);
+}
+
+.form-floating label {
+  padding-left: 1rem;
+}
+
+.form-control {
+  border-radius: 0.75rem;
+}

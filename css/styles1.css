@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(to right, #ffa500, #1e90ff);
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+  background-color: white;
+}
+
+.section-title {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 3px solid #1e90ff;
+}
+
+.modal-header,
+.modal-footer {
+  background-color: #f8f9fa;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-control button {
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.option-button {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 5px 15px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.option-button.active {
+  background-color: #1e90ff;
+  color: white;
+  border-color: #1e90ff;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff9800;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
